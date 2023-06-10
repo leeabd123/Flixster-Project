@@ -1,1 +1,291 @@
 
+
+body {
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 16px;
+    /* background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); */
+  background: rgb(58,71,180);
+background: linear-gradient(90deg, rgba(58,71,180,1) 0%, rgba(29,180,253,1) 50%, rgba(93,69,252,1) 100%);
+  }
+  
+  h1 {
+    text-transform: uppercase;
+    text-align: center;
+    margin: 20px 0;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 40px;
+    color: whitesmoke;
+  
+  }
+  
+  #preview {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start, space-evenly;
+
+    column-gap: 30px; 
+    margin-top: 20px;
+    margin-left: 3%;
+
+  }
+  
+  .show-more-button hidden {
+    display: none;
+  
+  }
+  
+  img {
+  
+    
+    border-radius: 5%;
+    margin-left: 20px;    
+  }
+  .poster_images {
+    width: 305px; /* Adjust the percentage width to control the number of images per row */
+    height: 500px;
+    border-radius: 5%;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    background-color: black;
+
+  }
+  
+
+  .load-more {
+
+  }
+
+  .load-more {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  
+  .load-more-movies-btn hidden {
+    position: absolute;
+    bottom: 0;
+  
+
+  }
+
+  .load-more-movies-btn {
+    font-family: 'Itim', cursive;
+    font-family: 'Patua One', cursive;
+    font-size: 30px;
+    letter-spacing: 5px;
+    box-shadow: 4px 4px 7px white(0, 0, 0, 0.5);
+    background-color: black;
+    color: white;
+    border-radius: 7%;
+  }
+  .search-bar {
+    width: 645px;
+    height: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border-radius: 3%;
+    border-color: black;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+    box-shadow: 4px 2px 4px white; /* Adjust the values to achieve the desired shadow effect */
+
+    
+  }
+
+  #search-input {
+    margin-top: 25px;
+    margin-left: 65px;
+    background: black;
+    border: 5px solid black;
+    border-radius: 8%;
+    font-size: 17px;
+    color: white;
+    width: 400px;
+    height: 40px;
+    transform: scale(1.2);
+    box-shadow: 3px 3px 5px black; /* Adjust the values to achieve the desired shadow effect */
+
+  }
+
+  .title {
+   display: flex;
+   flex-direction: row;
+   row-gap: 20px;
+   justify-content: center;
+   margin-left: auto;
+   margin-right: auto;
+   
+  }
+
+  .the_title_text {
+    font-family: 'Itim', cursive;
+    font-family: 'Patua One', cursive;
+    font-size: 80px;
+    letter-spacing: 5px;
+    text-shadow: 5px 5px 7px rgba(0, 0, 0, 0.5);
+  }
+
+  .popcorn {
+    margin-top: 40px;
+    width: 80px;
+    height: 80px;
+  }
+
+  .now {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 3%;
+    width: auto;
+    height: 100px;
+
+  }
+
+  .now-playing {
+    font-family: 'Itim', cursive;
+    font-family: 'Patua One', cursive;
+    font-size: 50px;
+    letter-spacing: 5px;
+    text-shadow: 5px 5px 7px rgba(0, 0, 0, 0.5);
+    padding-top: 210px;
+    text-transform: none;
+
+  }
+
+  .search-img {
+    width: 50px;
+    height: 50px;
+    margin-left: 80px;
+    margin-top: 15px;
+    box-shadow: 0px 2px 4px white(0, 0, 0, 0.2);
+  }
+
+  /* .a_line {
+    width: 400px;
+    height: 5px;
+    margin-top: -10px;
+    margin: auto;
+    box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.5);
+    margin-bottom: 50px;
+  } */
+
+  .line_2 {
+    width: 93%;
+    height: 10px;
+    margin-left: 3%;
+    box-shadow: 7px 7px 9px rgba(0, 0, 0, 0.5);
+    margin-top: 200px;
+  }
+
+  .insert {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    
+  }
+
+  .inner {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    width: 305px;
+    height: 200px;
+    margin-left: 10px;
+  }
+
+  .inner-title {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Itim', cursive;
+    font-family: 'Patua One', cursive;
+    font-size: 20px;
+    letter-spacing: 5px;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+    text-transform: none;
+    overflow-wrap: break-word;
+    word-break: normal;
+    text-align: left;
+    padding-left: 15px;
+
+  }
+
+  .inner-inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+
+  }
+  .the_rating {
+    font-size: 25px;
+    padding-right: 20px;
+    padding-top: 12px;
+    /* padding-left: 10px; */
+    font-family: 'Itim', cursive;
+    font-family: 'Patua One', cursive;
+    letter-spacing: 5px;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+    text-transform: none;
+
+  }
+
+  .star {
+    padding-top: 30px;
+    width: 20px;
+    height: 20px;
+     /* padding-right: 10px; */
+    padding-right: 10px;
+    box-shadow: 0px 2px 4px black(0, 0, 0, 0.2);
+
+  }
+  .hidden-prev {
+    display: none;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid #ccc;
+    margin: 100px;
+    position: absolute;
+    top: 0;
+    left: 5%;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+    pointer-events: none;
+    padding-left: 100px;;
+    width: 1000px;
+    height: 700px;
+  }
+  
+
+  
+.close-button {
+  pointer-events: auto;
+}
+
+.hidden-inner-portion {
+  padding-left: 90px;
+  padding-top: 30px;
+  width: 600px;
+  height: 400px;
+}
+
+.overview-div {
+  align-items: center;
+  text: wrap;
+  padding-left:20px;
+  padding-right:20px;
+}
+
+.overview {
+  font-family: 'Itim', cursive;
+    font-family: 'Patua One', cursive;
+    letter-spacing: 4px;
+    text-shadow: 4px 4px 8px white(0, 0, 0, 0.5);
+    text-transform: none;
+    color:black;
+    font-size: 20px;
+}
