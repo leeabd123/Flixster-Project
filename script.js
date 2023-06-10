@@ -1,9 +1,6 @@
-// const apiKey = "9sDuABTTrxi3RIQhFOcAlVGQn9pM71Nd"
-// const apiBaseUrl = "https://api.themoviedb.org/3"
-// const an_apikey = "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI4ZjYwMjJiNzk0YzE1YTZlYzJhYzdiMGNhZWU1ODFjNiIsInN1YiI6IjY0ODIwNTU3YmYzMWYyMDBjNjEzNTg4ZSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.-9xmGPVjiIePvYvgWwCHyPBIcL6eBVwCrA1qXl0VdFQ"
+
 let current_page = 1
-const apikey = "589127ef3ebe96184180ee910e0e19d4"
-// const apiToFetch = `${apiBaseUrl}/movie/now_playing?apiKey=${an_apikey}&page=${current_page}`
+const apikey = "API_KEY"
 let limit = 16
 let offset = 0
 
